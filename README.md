@@ -97,11 +97,6 @@ The full assembly procedure is described in the project documentation.
 2. Optionally, have the SMD components assembled by the manufacturer using `Fabrication/BOM_….csv` and `Fabrication/PickAndPlace_….csv`.
 3. Solder the through-hole components (headers, slide switches, terminal block, transistors, capacitor) by hand.
 
-## Notes
-
-- On the prototype, the slide switch U12 turned out to be defective. It is bypassed from the emergency pads under the PowerBoost, so that the main power path through the SHIM can still be used.
-- The design is documented in detail, in French, in the project report.
-
 ## License
 
 Released under the MIT License. Copyright (c) 2026 Isao Perregaux.
